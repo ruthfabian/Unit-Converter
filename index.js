@@ -11,6 +11,10 @@ const lengthDisplay = document.getElementById("length-display");
 const volumeDisplay = document.getElementById("volume-display");
 const massDisplay = document.getElementById("mass-display");
 
+inputEl.addEventListener('input', function(){
+  inputEl.value = inputEl.value.replace(/[^0-9.]/g, '');
+});
+
 inputBtn.addEventListener('click', function(){
   console.log("clicked button")
   const meterResult = (inputEl.value * 3.281).toFixed(3);
