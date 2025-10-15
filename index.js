@@ -1,11 +1,10 @@
-/*
-1 meter = 3.281 feet
+/**1 meter = 3.281 feet
 1 liter = 0.264 gallon
 1 kilogram = 2.204 pound
-*/
+**/
 
 let inputEl = document.getElementById("input-el");
-const inputBtn = document.getElementById("input-btn")
+const inputBtn = document.getElementById("input-btn");
 
 const lengthDisplay = document.getElementById("length-display");
 const volumeDisplay = document.getElementById("volume-display");
